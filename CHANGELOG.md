@@ -8,7 +8,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Added
 
-- 引用节点变色
+### Changed
+
+### Removed
+
+### Fixed
+
+## [0.2.0-preview] - 2025-04-05
+
+### Added
+
+- 引用节点自动变色
 
 ### Changed
 
