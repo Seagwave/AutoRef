@@ -1,0 +1,24 @@
+{
+  "name": "com.seagwave.autoref",
+  "version": "0.1.0-preview",
+  "displayName": "AutoRef",
+  "description": "aotu reference compoments.",
+  "unity": "2023.2",
+  "unityRelease": "15f1",
+  "author": {
+    "name": "haibo li",
+    "email": "haibofly@outlook.com",
+    "url": "https://seagwave.top"
+  },
+  "dependencies": { },
+  "license": "Undeclared",
+  "keywords": [
+    "unity"
+  ],
+  "samples": [
+    {
+      "displayName": "Sample",
+      "path": "Samples~"
+    }
+  ]
+}
