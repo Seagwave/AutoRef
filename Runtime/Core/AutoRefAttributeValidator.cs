@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Reflection;
+#if UNITY_EDITOR
+using AutoRef.Editor;
+#endif
 using SWFrameWork.Tools.Extension;
 using UnityEditor;
 using UnityEngine;
@@ -100,6 +103,7 @@ namespace SWFrameWork.Tools.AutoRef
                             field.SetValue(o, component);
 #if UNITY_EDITOR
                             EditorUtility.SetDirty(o); // 标记对象为"脏的"，以保存更改
+                            AutoRefMarker.MarkObject(component.gameObject);
 #endif
                             break;
                         }
