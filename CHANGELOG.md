@@ -14,6 +14,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Fixed
 
+## [0.2.1-preview] - 2025-04-06
+
+### Fixed
+
+- update meta file
+
 ## [0.2.0-preview] - 2025-04-05
 
 ### Added
